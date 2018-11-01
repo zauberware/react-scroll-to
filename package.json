@@ -1,6 +1,6 @@
 {
   "name": "@zauberware/react-scroll-to",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Scroll to ankers on your page. Scroll to Provider for React (^16.3.0) .. or better (^16.6.0).",
   "main": "build/index.js",
   "peerDependencies": {
@@ -17,8 +17,9 @@
   },
   "keywords": [
     "react",
-    "svg",
-    "assets",
+    "scroll",
+    "scroll-to",
+    "refs",
     "Provider",
     "Context API"
   ],
