@@ -30,7 +30,6 @@ Add a ref to a component where you want to scroll to:
 
 ```
 const { addScrollRef } = this.context
-
 <div ref={node => addScrollRef('mysection', node)}>
 
 ```
