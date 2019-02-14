@@ -36,7 +36,7 @@ const { addScrollRef } = this.context
 
 #### scrollTo()
 
-Scroll to a specefied section:
+Scroll to a specified section:
 
 ```
 
@@ -48,3 +48,16 @@ handleClick = (target) => {
 <a logo onClick={() => this.handleClick('mysection')}>My Section</a>
 
 ```
+
+#### Add Context
+
+Define your contextTypes:
+
+```
+
+MyComponent.contextTypes = {
+  scrollTo: PropTypes.func.isRequired,
+  addScrollRef: PropTypes.func.isRequired,
+}
+```
+Note: You only need to define the types or functions you want to use. You may only need addScrollRef on your scroll target and e.g. scrollTo within your MenuComponent.
