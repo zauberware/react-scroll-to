@@ -1,6 +1,6 @@
 {
   "name": "@zauberware/react-scroll-to",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Scroll to ankers on your page. Scroll to Provider for React (^16.3.0) .. or better (^16.6.0).",
   "main": "build/index.js",
   "peerDependencies": {
@@ -34,8 +34,7 @@
   "homepage": "https://github.com/zauberware/react-scroll-to#readme",
   "dependencies": {
     "prop-types": "^15.6.2",
-    "react": "^16.3.0",
-    "webpack": "^4.23.1"
+    "react": "^16.3.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.2",
@@ -46,6 +45,7 @@
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.4",
+    "webpack": "^4.23.1",
     "webpack-cli": "^3.1.2"
   }
 }
