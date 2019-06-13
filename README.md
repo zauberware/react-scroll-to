@@ -33,7 +33,7 @@ You can use the included ScrollToAction element with a scrollTo action already a
 <ScrollToActionElement Parent={Button} target='mysection' />
 
 ```
-The rendered element has the property active='active', so you can with styled-components
+The rendered element has the property active='active', so you can use it with styled-components
 
 ### Usage
 
