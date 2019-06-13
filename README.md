@@ -22,6 +22,19 @@ import ScrollToProvider from '@zauberware/react-scroll-to'
 
 ```
 
+### NEW with v 0.2.1
+
+### ScrollToActionElement
+You can use the included ScrollToAction element with a scrollTo action already attached.
+
+```
+
+# Renders a passed Component and adds 'active' property
+<ScrollToActionElement Parent={Button} target='mysection' />
+
+```
+The rendered element has the property active='active', so you can with styled-components
+
 ### Usage
 
 #### addScrollRef()
@@ -48,8 +61,9 @@ handleClick = (target) => {
 <a logo onClick={() => this.handleClick('mysection')}>My Section</a>
 
 ```
-
 #### Add Context
+
+#### LEGACY IMPLEMENTATION BEFORE v0.2.1!
 
 Define your contextTypes:
 
@@ -61,3 +75,13 @@ MyComponent.contextTypes = {
 }
 ```
 Note: You only need to define the types or functions you want to use. You may only need addScrollRef on your scroll target and e.g. scrollTo within your MenuComponent.
+
+#### IMPLEMENTATION v0.2.1!
+
+```
+import ScrollToContext from '@zauberware/react-scroll-to'
+
+[...]
+
+MyComponent.contextType = ScrollToContext
+```
