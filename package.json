@@ -34,7 +34,8 @@
   "homepage": "https://github.com/zauberware/react-scroll-to#readme",
   "dependencies": {
     "prop-types": "^15.6.2",
-    "react": "^16.3.0"
+    "react": "^16.3.0",
+    "smoothscroll-polyfill": "^0.4.4"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.2",
